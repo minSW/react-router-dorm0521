@@ -24,6 +24,7 @@ module.exports = {
     filename: 'index_bundle.js',
     publicPath: '/',
     historyApiFallback: true,
+    disableHostCheck: true,
     contentBase: './public',
     proxy: {
       "**": "http://localhost:3000" // express 서버주소
